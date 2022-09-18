@@ -62,6 +62,17 @@ height: 30px;
     padding-left: 50px;
     padding-right: 50px;
   }
+  .body-signup{
+    background-image: url(/img/container-bg-img-1.jpg);
+    background-repeat: no-repeat;
+  }
+  .signup{
+    height: 100%;
+    margin-top: 75px;
+    padding: 50px;
+    background-color: white;
+    opacity: 90%;
+  }
   
 
   
