@@ -14,6 +14,10 @@
 .container{
   max-width: 80%;
 }
+
+.content{
+  margin-top: 85px;
+}
 #visit{
   background-color: #f3f3f3;
 }

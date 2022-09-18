@@ -1,0 +1,68 @@
+*{
+}
+
+.logo{
+height: 30px;
+}
+
+.starter-template {
+    padding: 1.5rem 1.5rem;
+    text-align: center;
+  }
+
+.container-grey{
+    background-color: rgb(243, 243, 243);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card{
+    background-color: rgb(219, 219, 219)
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+  }
+  
+  .card img:hover{
+    background-color: azure;
+    opacity: 80%;
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+  }
+  
+  .card-footer{
+    background-color: rgb(108, 108, 211);
+  }
+
+
+  .container-bg-img{
+    background-image: url(/img/container-bg-img-1.jpg);
+    color: white;
+    padding-bottom: 50px;
+  }
+
+  .container-bg-img hr{
+    border-top: 1px solid white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .container-footer
+  {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+
+  
+  
