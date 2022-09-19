@@ -40,7 +40,7 @@ height: 30px;
 
 
   .container-bg-img{
-    background-image: url("/img/container-bg-img-1.jpg");
+    background-image: url("../img/container-bg-img-1.jpg");
     color: white;
     padding-bottom: 50px;
   }
@@ -63,7 +63,7 @@ height: 30px;
     padding-right: 50px;
   }
   .body-signup{
-    background-image: url('/img/container-bg-img-1.jpg');
+    background-image: url('../img/container-bg-img-1.jpg');
     background-repeat: no-repeat;
   }
   .signup{
