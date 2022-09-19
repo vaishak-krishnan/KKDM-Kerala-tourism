@@ -43,6 +43,7 @@ height: 30px;
     background-image: url("../img/container-bg-img-1.jpg");
     color: white;
     padding-bottom: 50px;
+    background-color: lightgray;
   }
 
   .container-bg-img hr{
