@@ -1,4 +1,4 @@
-
+/* start style.css */
 .logo{
 height: 30px;
 }
@@ -74,5 +74,86 @@ height: 30px;
 
   
 
+  /* Buttons */
+  .button-large {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
   
+  .button-large span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
   
+  .button-large span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-large:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-large:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+
+  .button-small {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button-small span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-small span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-small:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-small:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* end of style.css */
